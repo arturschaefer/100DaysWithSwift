@@ -1,14 +1,14 @@
 //
-//  Project_1App.swift
-//  Project 1
+//  Project01App.swift
+//  Project01
 //
-//  Created by Artur Schaefer on 14/1/23.
+//  Created by Artur Schaefer on 15/1/23.
 //
 
 import SwiftUI
 
 @main
-struct Project_1App: App {
+struct Project01App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
