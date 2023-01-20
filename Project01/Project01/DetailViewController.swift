@@ -10,6 +10,7 @@ import UIKit
 class DetailViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     var selectedImage: String?
+    var toolbarTitle: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +18,7 @@ class DetailViewController: UIViewController {
         let toolbar = UIToolbar()
         toolbar.isTranslucent = false
         
-        title = selectedImage
+        title = toolbarTitle
         navigationItem.largeTitleDisplayMode = .never
         
         if let imageToLoad = selectedImage {
